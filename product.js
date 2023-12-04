@@ -42,12 +42,6 @@ const createRow = data =>{
 }
 const displayCount =() => $('#count').html($('.row').length)
 
-
-//checkExpiry returns true if the product is expired
-//checkLowStock returns true if the product is in low stock
-//4 cases
-//inside handleRowCreation fn check for two columns exp and lowstock
-
 const handleRowCreation=(filterArr,data)=>{
     switch(checkedFilters.length){
         case 2:
